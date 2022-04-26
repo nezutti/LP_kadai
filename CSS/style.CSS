@@ -1,0 +1,85 @@
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+img{
+  width:100%;
+}
+
+.header_logo{
+  width:10%;
+}
+
+.header_nav_list{
+  display:flex;
+}
+
+.header_item{
+  margin-right:20px;
+  color:grey;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.commit{
+  position:relative;
+  width:100%;
+ 
+  
+}
+
+.commit_img{
+  width:60%;
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+
+.commit_detail{
+  position:absolute;
+  top:80px;
+  left:20%;
+}
+
+.commit_title{
+  font-size:50px;
+  color:#8D305A;
+  line-height:100PX;
+}
+
+.commit_title_required{
+  color:aqua;
+}
+
+.commit_text{
+  margin-top:50px;
+  font-size:20px;
+  color:#8D305A;
+  font-weight:bold;
+  line-height:40px;
+}
+
+.commit_text_required{
+  color:aqua;
+  font-weight:bold;
+}
+
+.commit_since{
+  color:gray;
+  line-height:20px;
+}
+
+.main{
+  position:relative;
+}
+
+.News{
+  position:absolute;
+  top:500px;
+  right:50%;
+  width:100%;
+ ""
+
+}
