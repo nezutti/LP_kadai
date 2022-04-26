@@ -32,9 +32,7 @@ img{
 
 .commit_img{
   width:60%;
-  position:absolute;
-  top:0px;
-  right:0px;
+  margin :0 0 0 auto;
 }
 
 .commit_detail{
@@ -71,15 +69,46 @@ img{
   line-height:20px;
 }
 
-.main{
-  position:relative;
-}
 
 .News{
-  position:absolute;
-  top:500px;
-  right:50%;
-  width:100%;
- ""
+  margin:40px auto;
+  width:60%;
+}
 
+.News_small_title{
+  font-size:10px;
+}
+
+
+.News_title{
+  margin:10px 0px;
+}
+
+.News_table{
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+}
+
+.News_table tr{
+  display:flex;
+  align-items:center;
+  border-bottom:1px solid #f2f2f2;
+  font-size:12px;
+  padding:14px 0px;
+  
+
+  
+}
+
+.News_table tr:nth-child(5){
+  border-bottom:1px solid #f2f2f2;
+  margin-bottom:20px;
+}
+
+.News_table th{
+  width:100%;
+}
+
+.News_table td{
+  width:100%;
 }
