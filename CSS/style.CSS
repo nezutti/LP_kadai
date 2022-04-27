@@ -191,7 +191,7 @@ img{
     
     width:50%;
     text-align:center;
-    background-color:#8D305A;
+    background-color:#D7006A;
     padding:20px;
     color:white;
   }
@@ -294,8 +294,22 @@ img{
     border:1px solid black;
     border-radius:6px;
     margin:20px 20px 20px 0px;
+    position:relative;
     
 
+  }
+
+  .Blog_card::before{
+    
+    content:"Blog";
+    color:white;
+    width:20%;
+    background-color:#D7006A;
+    position:absolute;
+    font-size:12px;
+    padding:5px;
+    text-align:center;
+    
   }
 
   .Blog_content{
@@ -428,6 +442,63 @@ img{
     color:white;
     font-size:20px;
   }
+
+  .Toiawase{
+    width:30%;
+    margin:30px  auto;
+    
+    text-align:center;
+  }
+
+  .Toiawase_text{
+     font-size:15px;
+     color:grey;
+     font-weight:bold;
+     
+  }
+
+.Toiawase_btn{
+  display:block;
+  margin:50px auto;
+  background:linear-gradient(90deg,#FF3399,#99004d);
+  width:30%;
+  text-align:center;
+  padding:18px 34px;
+  font-size:12px;
+  border-radius:20px;
+  color:white;
+  box-shadow:0px 5px #8D305A;
+  position:relative;
+}
+
+.Toiawase_btn::before{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:15px;
+  background:url(../img/mailicon.svg) no-repeat ;
+  background:cover;
+  width:20px;
+  height:20px;
+  transform:translate(0%,-50%);
+}
+
+
+  .Toiawase_btn::after{
+
+  }
+
+  small{
+    width:100%;
+    background-color:#f2f2f2;
+    display:block;
+    text-align:center;
+    padding:10px 0px;
+    font-size:10px;
+    color:grey;
+
+  }
+
 
 
   
