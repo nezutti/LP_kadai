@@ -388,6 +388,48 @@ img{
     color:grey;
   }
 
+  .other{
+    width:100%;
+    display:flex;
+    margin-top:50px;
+  }
+
+  .recruit{
+    position:relative;
+    
+  }
+
+  .recruit_title{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     
+    
+  }
+
+  .recruit_title a{
+    color:white;
+    font-size:20px;
+  }
+
+  .interview{
+    position:relative;
+  }
+
+  .interview_title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+
+  .interview_title a{
+    color:white;
+    font-size:20px;
+  }
+
+
   
 
   
