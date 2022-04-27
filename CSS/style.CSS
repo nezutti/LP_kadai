@@ -42,31 +42,32 @@ img{
 }
 
 .commit_title{
-  font-size:50px;
-  color:#8D305A;
+  font-size:40px;
+  color:#D7006A;
   line-height:100PX;
 }
 
 .commit_title_required{
-  color:aqua;
+  color:#00AE95;
 }
 
 .commit_text{
   margin-top:50px;
-  font-size:20px;
-  color:#8D305A;
+  font-size:15px;
+  color:#D7006A;
   font-weight:bold;
   line-height:40px;
 }
 
 .commit_text_required{
-  color:aqua;
+  color:#00AE95;
   font-weight:bold;
 }
 
 .commit_since{
   color:gray;
   line-height:20px;
+  font-size:12px;
 }
 
 
@@ -77,11 +78,13 @@ img{
 
 .News_small_title{
   font-size:10px;
+  color:#D7006A;
 }
 
 
 .News_title{
   margin:10px 0px 20PX;
+  color:#4d4c4c;
 }
 
 .News_table{
@@ -119,7 +122,7 @@ img{
 
 
 .News_table th span{
-  background-color:#8D305A;
+  background-color:#D7006A;
   margin:0px 20px ;
   padding:2px 10px;
   border-radius: 10px;
@@ -147,11 +150,13 @@ img{
   .About_small_title{
     text-align:center;
     font-size:10px;
+    color:#D7006A;
   }
 
   .About_title{
     text-align:center;
     margin:10px 0px;
+    color:#4d4c4c;
   }
 
 
@@ -260,10 +265,12 @@ img{
 
   .Service_small_title{
      font-size:10px;
+     color:#D7006A;
   } 
 
   .Service_title{
      margin-top:10px;
+     color:#4d4c4c;
   }
 
   .Blog{
@@ -275,6 +282,11 @@ img{
   .Blog_small_title{
     font-size:10px;
     padding:10px 0px;
+    color:#D7006A;
+  }
+
+  .Blog_title{
+    color:#4d4c4c;
   }
 
   .Blog_cards{
@@ -327,8 +339,16 @@ img{
 
   .Blog_card_parts{
     display:flex;
-    justify-content:space-between;
+    
     font-size:10px;
+  }
+
+  .Blog_card_parts_month{
+    padding:10px;
+  }
+
+  .Blog_card_parts_coach{
+    padding:10px 50px;
   }
   
   .Blog_btn{
@@ -383,6 +403,7 @@ img{
     font-size:12px;
     font-weight:bold;
     border-right:1px solid #CCCCCC;
+    color:grey;
     
   }
 
@@ -396,6 +417,7 @@ img{
   .Company_small_title{
     font-size:10px;
     margin-bottom:10px;
+    color:#D7006A;
   }
 
   .Company_title{
@@ -444,7 +466,7 @@ img{
   }
 
   .Toiawase{
-    width:30%;
+    width:35%;
     margin:30px  auto;
     
     text-align:center;
@@ -459,7 +481,7 @@ img{
 
 .Toiawase_btn{
   display:block;
-  margin:50px auto;
+  margin:10px auto;
   background:linear-gradient(90deg,#FF3399,#99004d);
   width:30%;
   text-align:center;
@@ -483,10 +505,17 @@ img{
   transform:translate(0%,-50%);
 }
 
+.Toiawase_line{
+  border:1px solid #D7006A;
+  height:30px;
+  width:1px;
+  margin:20px auto;
+  background-color:#D7006A
+  
+}
 
-  .Toiawase_btn::after{
 
-  }
+ 
 
   small{
     width:100%;
