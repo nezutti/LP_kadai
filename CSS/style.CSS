@@ -2,6 +2,7 @@
   display:flex;
   justify-content:space-between;
   align-items:center;
+  padding:10px 0px;
 }
 
 img{
@@ -135,7 +136,7 @@ img{
 
 .About{
   margin:20px auto;
-  width:80%;
+  width:100%;
   background-color:#f2f2f2;
   padding:20px 0;
 }
@@ -313,12 +314,17 @@ img{
 
   .Blog_card{
     width:30%;
-    border:1px solid black;
-    border-radius:6px;
+    border:1px solid white;
+    
+    border-radius:30px;
     margin:20px 20px 20px 0px;
     position:relative;
     
 
+  }
+
+  .Blog_card_content{
+    background-color:white;
   }
 
   .Blog_card::before{
@@ -338,6 +344,7 @@ img{
     margin:20px auto;
     width:70%;
     color:#4d4c4c;
+    
     
   }
 
