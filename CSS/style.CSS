@@ -453,6 +453,10 @@ img{
 
   .recruit{
     position:relative;
+    width:50%;
+    
+    
+    
     
   }
 
@@ -473,6 +477,9 @@ img{
 
   .interview{
     position:relative;
+    width:50%;
+    
+     
   }
 
   .interview_title{
