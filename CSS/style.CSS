@@ -314,9 +314,9 @@ img{
 
   .Blog_card{
     width:30%;
-    border:1px solid white;
+    overflow:hidden;
     
-    border-radius:30px;
+    border-radius:10px;
     margin:20px 20px 20px 0px;
     position:relative;
     
@@ -381,6 +381,7 @@ img{
     font-size:12px;
     color:#8D305A;
     font-weight:bold;
+    text-decoration:none;
     
   }
 
@@ -467,6 +468,7 @@ img{
   .recruit_title a{
     color:white;
     font-size:20px;
+    text-decoration:none;
   }
 
   .interview{
@@ -483,6 +485,7 @@ img{
   .interview_title a{
     color:white;
     font-size:20px;
+    text-decoration:none;
   }
 
   .Toiawase{
@@ -511,6 +514,7 @@ img{
   color:white;
   box-shadow:0px 5px #8D305A;
   position:relative;
+  text-decoration:none;
 }
 
 .Toiawase_btn::before{
